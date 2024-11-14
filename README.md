@@ -1,59 +1,51 @@
-# FULL_ADDER_SUBTRACTOR
-
-Implementation-of-Full-Adder-and-Full-subtractor-circuit
-
-**AIM:**
-
-To design a Full Adder and Full Subtractor circuit and verify its truth table in Quartus using Verilog programming.
-
-**Equipments Required:**
-
-Hardware – PCs, Cyclone II , USB flasher
-
-Software – Quartus prime
-
-**Full Adder and Full Subtractor**
-
-**Full Adder**
-
-Full adder is a digital circuit used to calculate the sum of three binary bits. It consists of three inputs and two outputs. Two of the input variables, denoted by A and B, represent the two significant bits to be added. The third input, Cin, represents the carry from the previous lower significant position. Two outputs are necessary because the arithmetic sum of three binary digits ranges in value from 0 to 3, and binary 2 or 3 needs two digits. The two outputs are sum and carry.
-
-Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin 
-
-Carry = AB + ACin + BCin
-
-![image](https://github.com/naavaneetha/FULL_ADDER_SUBTRACTOR/assets/154305477/0f30ba51-5ffb-4198-845f-18e054f675e7)
-
-**Figure -1 FULL ADDER**
-
-**Full Subtractor**
-
-A full subtractor is a combinational circuit that performs subtraction involving three bits, namely minuend, subtrahend, and borrow-in . It accepts three inputs: minuend, subtrahend and a borrow bit and it produces two outputs: difference and borrow.
-
-![image](https://github.com/naavaneetha/FULL_ADDER_SUBTRACTOR/assets/154305477/02b24f51-ab51-4304-9ad6-7b81ffc1ead5)
-
-Diff = A ⊕ B ⊕ Bin 
-
-Borrow out = A'Bin + A'B + BBin
-
-**Truthtable**
-
-**Procedure**
-
-Write the detailed procedure here
-
-**Program:**
-
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
-
-**RTL Schematic**
-
-**Output Timing Waveform**
-
-**Result:**
-
-Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
-
-
-
+NAME:V.MANIMARAN
+REGISTER NO:24008541
+EXPERIMENT 1:STUDY OF BASIC GATES
+AIM:
+EQUIPMENTS REQUIRED:
+THEORY
+AND GATE
+OR GATE
+Preview Code Blame Raw
+28/10/2024, 12:04 study-of-basic-gates/README.md at b1eee5114da44512cc4de75c9483acad7cb97ec8 · Manimaran-006/study-of-basic-gates
+https://github.com/Manimaran-006/study-of-basic-gates/blob/b1eee5114da44512cc4de75c9483acad7cb97ec8/README.md 1/4
+The OR gate is an electronic circuit that gives a high output (1) if one or more of its
+inputs are high. A plus (+) is used to show the OR operation. Y= A+B
+The NOT gate is an electronic circuit that produces an inverted version of the input at its
+output. It is also known as an inverter. If the input variable is A, the inverted output is
+known as NOT A. This is also shown as A' or A with a bar over the top, as shown at the
+outputs. Y= A'
+This is a NOT-AND gate which is equal to an AND gate followed by a NOT gate. The
+outputs of all NAND gates are high if any of the inputs are low. The symbol is an AND
+gate with a small circle on the output. The small circle represents inversion. Y= (AB)’
+This is a NOT-OR gate which is equal to an OR gate followed by a NOT gate. The
+outputs of all NOR gates are low if any of the inputs are high. The symbol is an OR gate
+with a small circle on the output. The small circle represents inversion. Y= (A+B)’
+The 'Exclusive-OR' gate is a circuit which will give a high output if either, but not both of
+its two inputs are high. An encircled plus sign (⊕) is used to show the Ex-OR operation.
+Y= A⊕B
+The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will give a low
+output if either, but not both of its two inputs are high. The symbol is an EX-OR gate
+with a small circle on the output. The small circle represents inversion. Y= A⊕B
+1. Type the program in Quartus software.
+2. Compile and run the program.
+3. Generate the RTL schematic and save the logic diagram.
+4. Create nodes for inputs and outputs to generate the timing diagram.
+5. For different input combinations generate the timing diagram.
+NOT GATE
+NAND GATE
+NOR GATE
+EX-OR GATE
+EX-NOR GATE
+PROCEDURE
+28/10/2024, 12:04 study-of-basic-gates/README.md at b1eee5114da44512cc4de75c9483acad7cb97ec8 · Manimaran-006/study-of-basic-gates
+https://github.com/Manimaran-006/study-of-basic-gates/blob/b1eee5114da44512cc4de75c9483acad7cb97ec8/README.md 2/4
+Program for logic gates and verify its truth table in quartus using Verilog programming
+Developed by: RegisterNumber:
+PROGRAM
+LOGIC SYMBOL & TRUTHTABLE
+RTL OUTPUT
+28/10/2024, 12:04 study-of-basic-gates/README.md at b1eee5114da44512cc4de75c9483acad7cb97ec8 · Manimaran-006/study-of-basic-gates
+https://github.com/Manimaran-006/study-of-basic-gates/blob/b1eee5114da44512cc4de75c9483acad7cb97ec8/README.md 3/4
+To study and verify the truth table of logic gates in Quartus II using Verilog
+programming.
