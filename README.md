@@ -2,7 +2,6 @@
 ## REG.NO:24008541
 # EXPERIMENT-4:IMPLEMENTATION FULL ADDER SUBTRACTOR
 
-Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
 # AIM:
 
